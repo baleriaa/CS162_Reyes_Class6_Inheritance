@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1b28bb13-c0aa-4ad6-8d8f-0996d397bfec" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1anAvtwafJ0vV9Bjs0YDrXEPAmB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="/Library/Java/JavaVirtualMachines/jdk-14.jdk/Contents/Home" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="untitled104" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1b28bb13-c0aa-4ad6-8d8f-0996d397bfec" name="Default Changelist" comment="" />
+      <created>1587361218277</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587361218277</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="196" y="23" key="#Main" timestamp="1587512040644">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state x="196" y="23" key="#Main/0.23.1440.828@0.23.1440.828" timestamp="1587512040644" />
+    <state width="1373" height="187" key="GridCell.Tab.0.bottom" timestamp="1587512357799">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state width="1373" height="187" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1587512357799" />
+    <state width="1373" height="187" key="GridCell.Tab.0.center" timestamp="1587512357796">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state width="1373" height="187" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1587512357796" />
+    <state width="1373" height="187" key="GridCell.Tab.0.left" timestamp="1587512357796">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state width="1373" height="187" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1587512357796" />
+    <state width="1373" height="187" key="GridCell.Tab.0.right" timestamp="1587512357798">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state width="1373" height="187" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1587512357798" />
+    <state x="27" y="23" key="SettingsEditor" timestamp="1587508609903">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state x="27" y="23" key="SettingsEditor/0.23.1440.828@0.23.1440.828" timestamp="1587508609903" />
+    <state x="170" y="192" key="com.intellij.ide.util.TipDialog" timestamp="1587508575938">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state x="170" y="192" key="com.intellij.ide.util.TipDialog/0.23.1440.828@0.23.1440.828" timestamp="1587508575938" />
+    <state x="170" y="192" key="com.intellij.ide.util.TipDialog/0.23.1440.829@0.23.1440.829" timestamp="1587361230733" />
+  </component>
+</project>

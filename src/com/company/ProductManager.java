@@ -3,7 +3,6 @@ package com.company;
 public class ProductManager extends Employee {
     private int yearsAtCompany;
     private int yearsOfExperience;
-    private int signOnBonus;
     private int sharesOfStock;
 
     public ProductManager(int yearsAtCompany, int yearsOfExperience){

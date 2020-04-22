@@ -2,7 +2,7 @@
 
 /**
  * Employee.java - Employee Benefits Management
- * @author Kimberly Bryant
+ * @author Baleria Reyes
  * @version 1
  */
 public class Employee {
@@ -10,21 +10,21 @@ public class Employee {
     private double baseSalary;
     private int yearsOfExperience;
     private int yearsAtCompany;
-    private int vacationDays;
+    private int vacationWeeks;
 
     /**
      * Parameterless constructor
      */
     public Employee(){
         name = "DEFAULT";
-        baseSalary = 25000.00;
+        baseSalary = 60000.00;
         yearsOfExperience = 0;
         yearsAtCompany = 0;
-        vacationDays = 0;
+        vacationWeeks = 0;
     }
 
     /**
-     * Parameterless constructor
+     * Parameterized constructor
      *@param name String
      *@param baseSalary double
      *@param yearsOfExperience int
@@ -44,16 +44,13 @@ public class Employee {
         this.name = name;
     }
 
-    public void setVacationDays(int vacationDays) {
-        this.vacationDays = vacationDays;
+    public void setVacationWeeks(int vacationDays) {
+        this.vacationWeeks = vacationDays;
     }
 
-    public int getVacationDays() {
-        return vacationDays;
+    public int getVacationWeeks() {
+        return vacationWeeks;
     }
-
-
-
     public double getBaseSalary() {
         return baseSalary;
     }
@@ -62,28 +59,12 @@ public class Employee {
         this.baseSalary = baseSalary;
     }
 
-    public int getYearsOfExperience() {
-        return yearsOfExperience;
-    }
-
-    public void setYearsOfExperience(int yearsOfExperience) {
-        this.yearsOfExperience = yearsOfExperience;
-    }
-
-    public int getYearsAtCompany() {
-        return yearsAtCompany;
-    }
-
-    public void setYearsAtCompany(int yearsAtCompany) {
-        this.yearsAtCompany = yearsAtCompany;
-    }
-
     /**
      * Returns the employees name, salary and motto
      * @return A value of data type String
      */
     public String toString(){
-        return "Employee name: "+name +"\nSalary: " +baseSalary +"\nVacation days: " +vacationDays +"\n" +motto();
+        return "Employee name: "+getName() +"\nSalary: $" +getBaseSalary() +"\nVacation days: " +getVacationWeeks() *7 +"\nMotto: " +motto();
     }
     /**
      * Returns a generic employee motto

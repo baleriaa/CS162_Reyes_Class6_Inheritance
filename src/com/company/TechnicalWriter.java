@@ -1,12 +1,21 @@
 package com.company;
 
 public class TechnicalWriter extends Employee {
+    private int yearsAtCompany;
 
-    public TechnicalWriter(){
+    public TechnicalWriter(int yearsAtCompany){
         super();
-        System.out.println("Position: Technical Writer");
+        this.yearsAtCompany = yearsAtCompany;
     }
-    public void setVacationDays(){
-        vacationDays + 7;
+    @Override
+    public String getName(){
+        return "Technical Writer";
+    }
+    @Override
+    public int getVacationWeeks(){
+        return (super.getVacationWeeks() +yearsAtCompany);
+    }
+    public String motto(){
+        return "You can always edit a bad page. You can’t edit a blank page.";
     }
 }

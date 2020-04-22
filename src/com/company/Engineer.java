@@ -1,76 +1,42 @@
 package com.company;
 
-/**
- * Employee.java - Employee Benefits Management
- * @author Baleria Reyes
- * @version 1
- */
-public class Employee {
-    private String name;
-    private double baseSalary;
-    private int yearsOfExperience;
+public class Engineer extends Employee {
     private int yearsAtCompany;
-    private int vacationWeeks;
+    private int yearsOfExperience;
+    private int signOnBonus;
 
-    /**
-     * Parameterless constructor
-     */
-    public Employee(){
-        name = "DEFAULT";
-        baseSalary = 60000.00;
-        yearsOfExperience = 0;
-        yearsAtCompany = 0;
-        vacationWeeks = 0;
-    }
-
-    /**
-     * Parameterized constructor
-     *@param name String
-     *@param baseSalary double
-     *@param yearsOfExperience int
-     *@param yearsAtCompany int
-     */
-    public Employee(String name, double baseSalary, int yearsOfExperience, int yearsAtCompany){
-        this.name = name;
-        this.baseSalary = baseSalary;
-        this.yearsOfExperience = yearsOfExperience;
+    public Engineer(int yearsAtCompany, int yearsOfExperience){
+        super();
         this.yearsAtCompany = yearsAtCompany;
+        this.yearsOfExperience = yearsOfExperience;
+        signOnBonus = 100 * yearsOfExperience;
     }
-    public String getName() {
-        return name;
+    public double getSignOnBonus(){
+        if(yearsOfExperience>5){
+            signOnBonus = 5000;
+        }else if(yearsOfExperience >=5){
+            signOnBonus = 10000;
+        }
+        return signOnBonus;
     }
-
-    public void setName(String name) {
-        this.name = name;
+    @Override
+    public int getVacationWeeks(){
+        return super.getVacationWeeks() +yearsAtCompany +1;
     }
-
-    public void setVacationWeeks(int vacationDays) {
-        this.vacationWeeks = vacationDays;
+    @Override
+    public String getName(){
+        return "Engineer";
     }
-
-    public int getVacationWeeks() {
-        return vacationWeeks;
-    }
+    @Override
     public double getBaseSalary() {
-        return baseSalary;
+        return (super.getBaseSalary() *1.5);
     }
-
-    public void setBaseSalary(double baseSalary) {
-        this.baseSalary = baseSalary;
-    }
-
-    /**
-     * Returns the employees name, salary and motto
-     * @return A value of data type String
-     */
-    public String toString(){
-        return "Employee name: "+getName() +"\nSalary: $" +getBaseSalary() +"\nVacation days: " +getVacationWeeks() *7 +"\nMotto: " +motto();
-    }
-    /**
-     * Returns a generic employee motto
-     * @return A value of data type String
-     */
+    @Override
     public String motto(){
-        return "We value our employees";
+        return "To the optimist, the glass is half full.To the pessimist, the glass is half empty. To the engineer, the glass is twice as big as it needs to be.";
+    }
+    @Override
+    public String toString() {
+        return super.toString() + "\nSign-on bonus: " +getSignOnBonus();
     }
 }
